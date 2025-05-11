@@ -16,5 +16,19 @@ def on_forever2():
         # # # # .
         """)
     basic.pause(100)
+
+def on_forever():
+    basic.show_leds("""
+    . # # # #
+    # # . . #
+    # # # # #
+    # # # # .
+    . # . # .
+    """)
+
+sus=randint(1, 15)
+if sus==15:
+    on_forever()
+else:
+    on_forever2()
     
-forever(on_forever2)
