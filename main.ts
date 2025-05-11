@@ -7,6 +7,12 @@ forever(function on_forever2() {
     . # . # .
     `)
     basic.pause(100)
-    basic.clearScreen()
+    basic.showLeds(`
+        . . . . .
+        . # # # .
+        # # . . .
+        # # # # .
+        # # # # .
+        `)
     basic.pause(100)
 })
